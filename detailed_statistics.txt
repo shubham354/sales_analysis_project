@@ -1,0 +1,100 @@
+Numeric Statistics:
+------------------
+          QUANTITYORDERED  PRICEEACH     SALES  PROFIT_MARGIN  DAYS_TO_SHIP
+count             2823.00    2823.00   2823.00        2823.00       2823.00
+mean                35.09      83.66   3553.89          11.21        491.01
+median              35.00      95.70   3184.80           0.00        526.00
+std                  9.74      20.17   1841.87          15.72        230.64
+min                  6.00      26.88    482.13          -0.00          0.00
+max                 97.00     100.00  14082.80          60.45        876.00
+<lambda>            27.00      68.86   2203.43           0.00        304.50
+<lambda>            43.00     100.00   4508.00          21.32        681.50
+
+Categorical Statistics:
+----------------------
+
+PRODUCTLINE:
+Mode: CLASSIC CARS
+Unique values: 7
+Value counts:
+PRODUCTLINE
+CLASSIC CARS        967
+VINTAGE CARS        607
+MOTORCYCLES         331
+PLANES              306
+TRUCKS AND BUSES    301
+SHIPS               234
+TRAINS               77
+
+STATUS:
+Mode: SHIPPED
+Unique values: 6
+Value counts:
+STATUS
+SHIPPED       2617
+CANCELLED       60
+RESOLVED        47
+ON HOLD         44
+IN PROCESS      41
+DISPUTED        14
+
+COUNTRY:
+Mode: USA
+Unique values: 19
+Value counts:
+COUNTRY
+USA            1004
+SPAIN           342
+FRANCE          314
+AUSTRALIA       185
+UK              144
+ITALY           113
+FINLAND          92
+NORWAY           85
+SINGAPORE        79
+CANADA           70
+DENMARK          63
+GERMANY          62
+SWEDEN           57
+AUSTRIA          55
+JAPAN            52
+BELGIUM          33
+SWITZERLAND      31
+PHILIPPINES      26
+IRELAND          16
+
+DEALSIZE:
+Mode: Medium
+Unique values: 3
+Value counts:
+DEALSIZE
+Medium    1384
+Small     1282
+Large      157
+
+Year:
+Mode: 2004
+Unique values: 3
+Value counts:
+Year
+2004    1345
+2003    1000
+2005     478
+
+Quarter:
+Mode: 4
+Unique values: 4
+Value counts:
+Quarter
+4    1094
+1     665
+2     561
+3     503
+
+Correlation Matrix:
+------------------
+                 QUANTITYORDERED  PRICEEACH  SALES  PROFIT_MARGIN
+QUANTITYORDERED            1.000      0.006  0.551          0.014
+PRICEEACH                  0.006      1.000  0.658          0.578
+SALES                      0.551      0.658  1.000          0.756
+PROFIT_MARGIN              0.014      0.578  0.756          1.000

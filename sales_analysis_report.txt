@@ -1,0 +1,24 @@
+Sales Data Analysis Report
+=========================
+
+1. Overall Statistics
+-----------------
+Total Orders: 2823
+Total Sales: $10,032,628.85
+Average Order Value: $3,553.89
+
+2. Product Performance
+--------------------
+Top Performing Product Lines:
+CLASSIC CARS: $3,919,615.66
+VINTAGE CARS: $1,903,150.84
+MOTORCYCLES: $1,166,388.34
+TRUCKS AND BUSES: $1,127,789.84
+PLANES: $975,003.57
+SHIPS: $714,437.13
+TRAINS: $226,243.47
+
+3. Seasonal Patterns
+------------------
+Best performing month: 4
+Worst performing month: 9
